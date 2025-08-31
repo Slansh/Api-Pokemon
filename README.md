@@ -1,13 +1,85 @@
-# React + Vite
+Meu Site Dinâmico de Pokémon ⚡️
+Uma aplicação web moderna e interativa construída com React, que oferece funcionalidades de busca, listagem e gerenciamento de dados de Pokémon.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Sobre o Projeto
+Este projeto é uma demonstração de uma aplicação web dinâmica desenvolvida com React. O objetivo principal é ilustrar o uso de conceitos fundamentais como:
 
-Currently, two official plugins are available:
+Roteamento: Navegação entre diferentes páginas (Home, Pesquisa, Lista, Formulário e Sobre) utilizando react-router-dom.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Consumo de API: Busca de dados em uma API externa, a PokeAPI, para exibir informações detalhadas de Pokémon.
 
-## Expanding the ESLint configuration
+Gerenciamento de Estado: Utilização de useState e useEffect para controlar o estado dos componentes, lidar com carregamentos e erros.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# r
+Context API: Implementação de um sistema de "Pokémon Vistos Recentemente" que compartilha dados entre os componentes e persiste no localStorage.
+
+Estilização Profissional: Design moderno e totalmente responsivo, construído com o framework CSS Tailwind CSS.
+
+Validação de Formulário: Demonstração de um formulário com validação de campos em tempo real.
+
+✨ Funcionalidades
+Página Inicial: Exibe uma saudação e uma seção de Pokémon visualizados recentemente.
+
+Pesquisa de Pokémon: Permite buscar um Pokémon por nome e visualizar seus detalhes, como ID, tipos, habilidades e estatísticas.
+
+Lista de Pokémon: Exibe uma lista paginada de Pokémon, permitindo a navegação entre as páginas e a busca por nome.
+
+Formulário de Contato: Uma página de formulário simples com validação para demonstrar o manuseio de inputs e validação de dados.
+
+Página "Sobre": Uma visão geral do projeto e dos conceitos de React utilizados.
+
+🛠️ Tecnologias Utilizadas
+Front-end:
+
+React: Biblioteca JavaScript.
+
+React Router DOM: Para o roteamento.
+
+Tailwind CSS: Para estilização e layout responsivo.
+
+Context API: Para gerenciamento de estado global.
+
+Lucide React: Biblioteca de ícones.
+
+API:
+
+PokeAPI: API RESTful para dados de Pokémon.
+
+⚙️ Como Rodar o Projeto
+Siga os passos abaixo para ter uma cópia do projeto em execução na sua máquina local.
+
+Pré-requisitos
+Certifique-se de que você tem o Node.js e o Git instalados.
+
+Instalação
+Clone o repositório para sua máquina:
+
+Bash
+
+git clone https://github.com/seu-usuario/seu-repositorio.git
+Navegue até o diretório do projeto:
+
+Bash
+
+cd seu-repositorio
+Instale as dependências:
+
+Bash
+
+npm install
+# ou
+yarn
+Executando a Aplicação
+Inicie o servidor de desenvolvimento:
+
+Bash
+
+npm start
+# ou
+yarn start
+A aplicação estará disponível em http://localhost:3000.
+
+🤝 Contribuições
+Sinta-se à vontade para abrir issues ou enviar pull requests para melhorar este projeto. Toda contribuição é bem-vinda!
+
+📝 Licença
+Este projeto está sob a licença MIT.
