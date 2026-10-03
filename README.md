@@ -52,11 +52,11 @@ Certifique-se de que você tem o **Node.js** e o **Git** instalados.
 
 1.  Clone o repositório para sua máquina:
     ```bash
-    git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+    git clone https://github.com/Slansh/Api-Pokemon.git
     ```
 2.  Navegue até o diretório do projeto:
     ```bash
-    cd seu-repositorio
+    cd Api-Pokemon
     ```
 3.  Instale as dependências:
     ```bash
@@ -69,6 +69,9 @@ Certifique-se de que você tem o **Node.js** e o **Git** instalados.
 
 Inicie o servidor de desenvolvimento:
 ```bash
-npm start
+npm run dev
 # ou
-yarn start
+yarn dev
+```
+
+A aplicação ficará disponível em `http://localhost:5173`.
